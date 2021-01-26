@@ -1,0 +1,69 @@
+/* NAVBAR */
+nav {
+        width: 1170px;
+        height: 80px;
+        margin: auto;
+        display: flex;
+        border-bottom: 2px solid  #6C5746;
+        
+        
+        .nav_col_left, .nav_col_right  {
+            width: calc(100% / 2);
+            height: 80px;
+            display: flex;
+            align-items: center;
+        }
+        .nav_col_right {
+            justify-content: flex-end;
+            font-weight: 800;
+            a {
+                font-size: 16px;
+                color: #5A483A;
+                text-decoration: none;
+                margin: 0 12px;
+            }
+            #sign_with_google {
+                padding: 10px 0 10px 12px; border-radius: 5px; border: 2px solid #4E4795;
+                &:hover{cursor: pointer;}
+                img {width: 25px;vertical-align: middle;}
+                a {vertical-align: middle; margin-left: 0; color: #4E4795}
+            }
+        }
+    }
+
+.jumbotron {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+
+    .jumbotron_left, .jumbotron_right {width: calc(100% / 2); padding: 80px 0; }
+
+     .jumbotron_left {
+         h2 {color: #58402C; font-weight: 800; font-size: 55px;}
+         p {color: #58402C; 
+            font-weight: 600; 
+            font-size: 25px; 
+            margin: 12px 0 92px 0;
+        }
+        p:nth-child(4) {font-size: 18px; font-weight: 600; color: #58402C; display: inline-block; margin: 0 12px;}
+        p:nth-child(6) {font-size: 18px; font-weight: 500; color: #58402C; margin: 28px 0;}
+        .right_icon {margin-left: 5px; font-size: 16px;}
+
+         #signup_google, #signup_slack {
+             padding: 10px; 
+             background-color: #2C4792; 
+             border-radius: 5px;
+             color: #ffffff;
+             font-weight: 800;
+             margin: 70px 0;
+             img {width: 25px; vertical-align: middle;}
+             a {font-weight: 800; color: #ffffff; text-decoration: none;font-size: 16px; vertical-align: middle;}
+         }
+     }
+
+     .jumbotron_right {
+         img {width: 560px;}
+     }
+}   
+
+

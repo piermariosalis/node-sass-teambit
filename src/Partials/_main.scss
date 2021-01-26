@@ -1,0 +1,29 @@
+/* SITE MAIN */
+
+#site_main {
+    width: 100wv;
+    background-color: #FFE7D2;
+
+
+    // #one, #two, #three, #four, #five, #six, #seven {
+    //     width: 1170px;
+    //     margin: auto;
+    // }
+
+    // section One
+    #one {
+        width: 600px;
+        margin: auto;
+        padding-top: 100px;
+        h3 {
+            color: #58402C;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 800;
+        }
+        .one_features {
+            width: 1170px;
+            margin: auto;
+        }
+    }
+}
